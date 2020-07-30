@@ -9,5 +9,7 @@ namespace Dating1App.api.Data
         }
 
         public DbSet<Value> val   { get; set; }
+
+        public DbSet<User> Users {get; set;} 
     }
 }
