@@ -4,7 +4,7 @@ namespace Dating1App.api.Modules
     {
         public int Id { get; set; }
 
-        public string userName { get; set; }
+        public string Username { get; set; }
 
         public byte[] PasswordHash { get; set; }
 
